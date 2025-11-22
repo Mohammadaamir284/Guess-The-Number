@@ -19,6 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 92vh;
+    overflow: hidden;
 }
 
 .container {
@@ -134,5 +135,8 @@ input {
 
     input {
         width: 60vw;
+    }
+    .hide{
+        display: none;
     }
 }

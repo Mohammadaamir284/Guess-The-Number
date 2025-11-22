@@ -53,7 +53,7 @@ document.querySelector(".btn2").addEventListener("click", () => {
     document.getElementById("input").value = ""
     score = 8
     scan = false
-    output.textContent = "Enter your Number"
+    output.textContent = "Enter your Number and Play Again"
     document.querySelector(".restart-button").style.display = "none"
     console.log(a);
 })
